@@ -1,0 +1,40 @@
+table th, table td { 
+	border: 2px solid #000; 
+	padding: 1px 2px;
+	}
+	
+tbody > tr > th { 
+	font-style: italic;
+	font-weight: normal; 
+	}
+
+tbody td:nth-child(2) { color: red; }
+
+tbody td:nth-child(4) { color: blue; }
+
+tbody > tr:nth-child(2n + 1){ background-color: lime; }
+
+tbody > tr:nth-child(2n) { background-color: aqua; }
+
+dt:hover + dd { background-color:purple; }
+
+.outer-content {
+	margin: 20px;
+	width: 75%;
+	text-align: left;
+	background-color: fuchsia;
+	}
+	
+.inner-content {
+	background-color: blue;
+	width: 75%;
+	text-align: center;
+	margin: 0 auto;
+	/* I learned the above centering method here: https://css-tricks.com/centering-css-complete-guide/ */
+	}
+	
+img {
+	width: 100px;
+	height: 125px;
+	float: left;
+	}
